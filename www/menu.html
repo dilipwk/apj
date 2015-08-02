@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/services.js"></script>
+	
+	<script>
+	
+	function MainCtrl($scope, $ionicScrollDelegate) {
+  $scope.scrollTop = function() {
+    $ionicScrollDelegate.scrollTop();
+  };
+}
+</script>
+  </head>
+   <body bgcolor="cyan" ng-app="starter" >
+   <body ng-controller="MainCtrl">
+    
+  <ion-content>
+    <button ng-click="scrollTop()">Scroll to Top!</button>
+  </ion-content>
+  </body>
+
+
+    <div class="bar bar-header">
+  
+  <div class="h1 title">A. P. J. Abdul Kalam</div>
+	<button class="button button-icon icon ion-navicon"></button>
+</div><br><br>
+
+<div class="list">
+
+  
+
+
+</div>
+   
+   
+   <div class="tabs-striped tabs-top tabs-background-positive tabs-color-light">
+    <div class="tabs">
+      <a class="tab-item active" href="#">
+        <i class="icon ion-home"></i>
+        Test
+      </a>
+      <a class="tab-item" href="index.html">
+        <i class="icon ion-card"></i>
+        Favorites
+      </a>
+	   <a class="tab-item" href="his.html">
+        <i class="icon ion-email"></i>
+        history
+      </a>
+	   <a class="tab-item" href="awd.html">
+        <i class="icon ion-trophy"></i>
+        awd
+      </a>
+      <a class="tab-item" href="setting.html">
+        <i class="icon ion-person"></i>
+        Settings
+      </a>
+	  
+    </div>
+  </div><br><br><br>
+  
+
+  
+  <div class="bar bar-header item-input-inset">
+  <label class="item-input-wrapper">
+    <i class="icon ion-ios-search placeholder-icon"></i>
+    <input type="search" placeholder="Search">
+  </label>
+  <button class="button button-clear">
+    Cancel
+  </button>
+</div><br><br>
+
+ <div class="item item-image">
+    <img width="150" height="200" src="220px-Vladimir_Putin_with_Abdul_Kalam_26_January_2007.jpg" >
+  </div>
+  
+
+  
+  <div class="card">
+  <div class="item item-text-wrap">
+    Early life and education
+
+Avul Pakir Jainulabdeen Abdul Kalam was born on 15 October 1931 to a Tamil Muslim family in Rameswaram in the Indian state of Tamil Nadu. His father's name was Jainulabudeen, a boat owner, and his mother Ashiamma, a housewife.[5][6][7][8] His father owned a ferry that took Hindu pilgrims back and forth between Rameswaram and the now-extinct Dhanushkodi.[9][10] He came from a poor background and started working at an early age to supplement his family's income.[11] After completing school, Kalam distributed newspapers to contribute to his father's income.[11][12] In his school years he had average grades but was described as a bright and hardworking student who had a strong desire to learn and spend hours on his studies, especially mathematics.[12] After completing his education at the Ramanathapuram Schwartz Matriculation School, Kalam went on to attend Saint Joseph's College, Tiruchirappalli, then affiliated with the University of Madras, from where he graduated in physics in 1954.[13] Towards the end of the course, he was not enthusiastic about the subject and would later regret the four years he studied it. He moved to Madras in 1955 to study aerospace engineering in Madras Institute of Technology.[8] While Kalam was working on a senior class project, the Dean was dissatisfied with his lack of progress and threatened to revoke his scholarship unless the project was finished within the next three days. Kalam met the deadline, impressing the Dean, who later said to him, "I was putting you under stress and asking you to meet a difficult deadline".[14] He narrowly missed achieving his dream of becoming a fighter pilot, as he placed ninth in qualifiers, and only eight positions were available in the IAF.[15]
+  </div>
+</div><br><br>
+
+<div class="list">
+  <label class="item item-input item-floating-label">
+    <span class="input-label">First Name</span>
+    <input type="text" placeholder="First Name">
+  </label>
+  <label class="item item-input item-floating-label">
+    <span class="input-label">Last Name</span>
+    <input type="text" placeholder="Last Name">
+  </label>
+  <label class="item item-input item-floating-label">
+    <span class="input-label">Email</span>
+    <input type="text" placeholder="Email">
+  </label>
+  <button class="button button-small button-assertive">
+  Submit
+</button>
+</div>
+  
+   
+  </body>
+  
+  
+  
+  
+  
+  </html>
